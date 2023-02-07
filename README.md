@@ -34,10 +34,10 @@ Porém, seguem alguns dos exemplos realizados:
 | Númeração | Cenário | Localização | Pré-condição | Procedimento | Resultado esperado:
 | ------------- |:-------------:| -----:| ------------- |:-------------:| -----:|
 | 1 | Registro | Tela Principal | Nome,usuário e senha válidos | Preencher: - nome - e-mail - senha - confirmação de senha|Usuário criado com sucesso!. |
-|2  | Registrar duplicado, inválido| Tela Principal | Nome, usuário e senha pré-cadastrados. | Preencher: - nome- e-mail - senha - confirmação de senha | Falha no cadastro. |
-|3 | Registra, em branco, inválido | Tela Principal | Nome, e-mail e confirmação de senha válidos. Senha inválida. | Preencher: - nome - e-mail - senha - confirmação de senha | Indicar o erro do usuário(senha inválida) e não cadastrar. |
-|4 | Registro, poucos caracteres, inválido | Tela Principal | e-mail, senha e confirmação de senha válidos. Nome inválido. | Preencher: - nome - e-mail - senha - confirmação de senha | Indicar o erro do usuário(nome inválido) e não cadastrar. |
-|5 | Registro, muitos caracteres, inválido | Tela Principal | Nome, senha e confirmação de senha válidos. E-mail inválido. | Preencher: - nome - e-mail - senha - confirmação de senha | Indicar o erro do usuário(e-mail inválido) e não cadastrar. |
+|2  | Registrar duplicado, inválido| Tela Principal | Nome, usuário e senha pré-cadastrados. | Preencher: - nome - usuário - senha. <br/> Clicar: -enviar | Falha no cadastro. |
+|3 | Registra, em branco, inválido | Tela Principal | Sem pré condição | Clicar: -enviar | Indicar o erro do usuário(campo em branco) e não cadastrar. |
+|4 | Registro, poucos caracteres, inválido | Tela Principal | Nome,usuário e senha com menos de 3 caracteres | Preencher: - nome - e-mail - senha. <br/> Clicar: -enviar | Indicar o erro do usuário(poucos caracteres) e não cadastrar. |
+|5 | Registro, muitos caracteres, inválido | Tela Principal | Nome,usuário e senha com mais de 10 caracteres | Preencher: - nome - e-mail - senha  <br/> Clicar: -enviar | Indicar o erro do usuário(excedeu caracteres) e não cadastrar. |
 
 
 ## Resultados
@@ -48,11 +48,10 @@ Porém, seguem alguns dos exemplos obtidos:
 
 |Númeração|Resultado <br/> Esperado\|Obtido|  Sucesso  |Considerações|
 | ------------- |:----------------:|:--------:| ------------- |
-|6|Indicar o erro do usuário(confirmação de senha inválido) e não cadastrar. <br/> \| <br/> Ele não confirma que a senha escolhida são iguais nos dois campos de senha.|Falha ❌|Confirmação de senha com caracteres a mais do que o possível na senha
-|7|Login na página de consulta! <br/> \| <br/> Login na página de consulta! | Sucesso ✅|
-|8|Indicar o erro do usuário(senha inválida) e não logar. <br/> \| <br/> Indica o erro(senha inválida) e não faz o login |Sucesso ✅|
-|9| Indicar o erro do usuário(e-mail inválido) e não logar. <br/> \| <br/> Indica o erro(e-mail inválido) e não faz o login|Sucesso ✅|
-|10| Listar vagas(por padrão o “não remoto” é selecionado). <br/> \| <br/> Listar vagas(por padrão o “não remoto” é selecionado).|Sucesso ✅ |O não remoto poderia ser opcional e não por padrão
+|6|Indicar o erro do usuário(caractere inválido) e não cadastrar. <br/> \| <br/> Usuário criado com sucesso!|Falha ❌|
+|7|Atualiza e carrega de novo a página. <br/> \| <br/> Atualiza e carrega de novo a página. | Sucesso ✅|
+|8|Deleta o registro selecionado. <br/> \| <br/> Deleta o registro selecionado |Sucesso ✅|
+
 
 ## Subprodutos
 Os subprodutos tais como: scripts, imagens e vídeos resultados dos testes executados estão disponíveis neste repositório em suas respectivas pastas.
