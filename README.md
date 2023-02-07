@@ -33,7 +33,7 @@ Porém, seguem alguns dos exemplos realizados:
 
 | Númeração | Cenário | Localização | Pré-condição | Procedimento | Resultado esperado:
 | ------------- |:-------------:| -----:| ------------- |:-------------:| -----:|
-| 1 | Registro | Tela Principal | Nome,usuário e senha válidos | Preencher: - nome - e-mail - senha - confirmação de senha|Usuário criado com sucesso!. |
+| 1 | Registro | Tela Principal | Nome,usuário e senha válidos | Preencher: - nome - usuário - senha - confirmação de senha|Usuário criado com sucesso!. |
 |2  | Registrar duplicado, inválido| Tela Principal | Nome, usuário e senha pré-cadastrados. | Preencher: - nome - usuário - senha. <br/> Clicar: -enviar | Falha no cadastro. |
 |3 | Registra, em branco, inválido | Tela Principal | Sem pré condição | Clicar: -enviar | Indicar o erro do usuário(campo em branco) e não cadastrar. |
 |4 | Registro, poucos caracteres, inválido | Tela Principal | Nome,usuário e senha com menos de 3 caracteres | Preencher: - nome - usuário - senha. <br/> Clicar: -enviar | Indicar o erro do usuário(poucos caracteres) e não cadastrar. |
