@@ -1,5 +1,5 @@
 # Vagas-TI
-Escopo e subprodutos de teste para o site: https://eureka-testers.onrender.com/#/login
+Escopo e subprodutos de teste para o site: [http://www.aprendendotestar.com.br/treinar-automacao.php](http://www.aprendendotestar.com.br/treinar-automacao.php)
 
 Para esse projeto o Documento que traz a abordagem completa utilizada é o: [Plano de teste do projeto!] e pode ser beixado para melhor vizualização.
 Este documento traz como aspectos mais importantes as seguintes abordagens sobre o site:
