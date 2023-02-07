@@ -1,4 +1,4 @@
-# Vagas-TI
+# Aprendendo a testar
 Escopo e subprodutos de teste para o site: [http://www.aprendendotestar.com.br/treinar-automacao.php](http://www.aprendendotestar.com.br/treinar-automacao.php)
 
 Para esse projeto o Documento que traz a abordagem completa utilizada é o: [Plano de teste do projeto!] e pode ser beixado para melhor vizualização.
