@@ -11,7 +11,6 @@ Este documento traz como aspectos mais importantes as seguintes abordagens sobre
 * Resultados de teste. 
 * Subprodutos de teste. 
 * Cobertura de teste. 
-* Observações de teste. 
 
 ## Casos de teste
 
@@ -77,8 +76,6 @@ O nível de cobertura de testes é medido pela “%” porcentagem dos casos de 
 |Inaceitável|Até 70% de casos executados com sucesso.|Qualidade insuficiente.|
 
 ##### O projeto atual se encontra com 50% dos seus testes executados com sucesso, o que o coloca em inaceitável!
-
-## Observações
 
 
 <br/> 
